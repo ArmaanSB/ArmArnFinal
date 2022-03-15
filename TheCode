@@ -1,18 +1,18 @@
 public class TheCode
 {
-  public TheCode()
-  {
-    
-  }
-  
-  public static void main(String[]args)
-  {
-    TheCode app = new TheCode();
-  }
+    interface PQuotient
+    {
+        void printQuotient(float x, float y);
+    }
+    public TheCode()
+    {
+        PQuotient run = (x,y)-> System.out.printf("The quotient of %.3f and %.3f is : %.3f",x,y,x/y);
+        run.printQuotient(4.0f,6.0f);
+    }
 
- public void printQuotient(float x, float y){
-    float quotient = x/y;
-    
- }
+    public static void main(String[]args)
+    {
+        TheCode app = new TheCode();
+    }
 
 }
