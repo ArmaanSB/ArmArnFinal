@@ -1,0 +1,18 @@
+public class TheCode
+{
+  public TheCode()
+  {
+    
+  }
+  
+  public static void main(String[]args)
+  {
+    TheCode app = new TheCode();
+  }
+
+ public void printQuotient(float x, float y){
+    float quotient = x/y;
+    
+ }
+
+}
