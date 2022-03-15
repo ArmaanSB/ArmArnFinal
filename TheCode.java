@@ -4,6 +4,11 @@ public class TheCode
 	{
 		boolean isPerfectSquare(double n);
 	}
+        
+    interface PQuotient
+    {
+        void printQuotient(float x, float y);
+    }
 
 	public TheCode()
 	{
@@ -16,9 +21,13 @@ public class TheCode
 		};
 		System.out.println(ps.isPerfectSquare(64));
 		System.out.println(ps.isPerfectSquare(5));
-	}
-	public static void main(String[]args)
-	{
-		TheCode app = new TheCode();
-	}
+        
+        PQuotient run = (x,y)-> System.out.printf("The quotient of %.3f and %.3f is : %.3f",x,y,x/y);
+        run.printQuotient(4.0f,6.0f);
+    }
+    public static void main(String[]args)
+    {
+        TheCode app = new TheCode();
+    }
+
 }
