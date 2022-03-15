@@ -1,3 +1,6 @@
+//Arnav I learned how to merge files in gitkraken. I also learned how to edit files in a texteditor from gitkraken.
+
+
 public class TheCode
 {
 	interface PerfectSquare
