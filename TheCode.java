@@ -1,5 +1,8 @@
 //Armaan - I learned how to use gitkraken, create and merge branches, and how multiple people can work together on the same project.
 
+//Arnav I learned how to merge files in gitkraken. I also learned how to edit files in a texteditor from gitkraken.
+
+
 public class TheCode
 {
 	interface PerfectSquare
